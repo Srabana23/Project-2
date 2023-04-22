@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie.com</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" media="screen and (max-width:950px)" href="./phone.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="logo">
+            <img src="https://cdn.dribbble.com/users/4987860/screenshots/15665665/foodie.jpg" height="80px" width="110px" alt="foodie">
+        </div>
+        <ul>
+            <li class="item"><a href="#">Home</a></li>
+            <li class="item"><a href="#">Sevices</a></li>
+            <li class="item"><a href="#">About Us</a></li>
+            <li class="item"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+    <section id="home">
+        <h1 class="heading center">Welcome To Foodie</h1>
+        <p class="para center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, nam!</p>
+        <p class="para center">Lorem, ipsum dolor sit amet consectetur</p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section class="services-container">
+        <h1 class="heading center">Our Services</h1>
+        <div class="services">
+            <div class="box" id="para1">
+                <img class="food-icon" src="./pizza-g3dec32314_1920.jpg"  alt="foodie">
+                <h3 class="food-icon-heading">Endless Range of Cuisines</h3>
+                <p class="description center">Fugiat alias animi doloribus praesentium consectetur tenetur deleniti, fugit perspiciatis obcaecati excepturi iure aut hic nulla delectus accusamus ad? Minima alias, assumenda a vel maxime hic!</p>
+            </div>
+            <div class="box" id="para2">
+                <img class="food-icon" src="https://finty-au.ap-south-1.linodeobjects.com/images/Accept-Payment-Methods-Header.original.width-1116.jpg"  alt="foodie">
+                <h3 class="food-icon-heading">Easy & Safe Payments</h3>
+                <p class="description center">Fugiat alias animi doloribus praesentium consectetur tenetur deleniti, fugit perspiciatis obcaecati excepturi iure aut hic nulla delectus accusamus ad? Minima alias, assumenda a vel maxime hic!</p>
+            </div>
+            <div class="box" id="para3">
+                <img class="food-icon" src="https://static.toiimg.com/photo/msid-81923053/81923053.jpg"  alt="foodie">
+                <h3 class="food-icon-heading">Fast delivery</h3>
+                <p class="description center"> Fugiat alias animi doloribus praesentium consectetur tenetur deleniti, fugit perspiciatis obcaecati excepturi iure aut hic nulla delectus accusamus ad? Minima alias, assumenda a vel maxime hic!</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-service">
+        <h1 class="heading center">Our Clients</h1>
+       <div id="client">
+        <div class="client-items"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAe1BMVEX6+vozMzP///8wMDAlJSUoKCgaGhoYGBgsLCwdHR0iIiIuLi75+fkfHx/09PQqKip6enpaWlrr6+uZmZnV1dWNjY1BQUF0dHSFhYU4ODikpKTKysqurq4TExO0tLRiYmLg4OBubm5ISEhVVVXExMRHR0fHx8cAAAA9PT2zRrLGAAADv0lEQVR4nO3c2XaqMBQGYLLDIKOC4ICKOJ32/Z/wAIpDD21hnwtWu//vznpD/5WY7CTEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAH4torGf4OchijZn5DYMRdvY3sWIbQiKMs/zlb9HbANQYZmqMjkgtv6CpaPr1NR0hdh6i05NU6t4W8TW28m6pabsFLH1RMu2rSm9Rmo90dZuU1PmHLH1lHj31FSYjP00PwXNrEdjy9DYekrce2paRWM/zU9B8/t4oJw/aGw90UK3qbkYD3pLnHtqM6TWF23anzYHZVV/VFynH5MdqqoBaFvFpi1nXyK1AWj75pqXVYrF8K/RTfs5Ksvk+rH+axAFz19Cg6gsskMcL+eb6DWc6lOaL4/KV8d9dk6Q3AMl84XtWRPfn5judHkO7uEQpau1bU50zbfCcF8YCK5B0co171PbauwMdZZeO2yZHx3r6SulfHddoMUZzUzDUq+0Zb9n5zQ/OaZWH2k7TpCbMXP+SaZJLgxNv+ubqjmaG+m5BbHXnc1XtC29tI8/dtB+ubmidxaeNgsG5mYJXu2l3P4+oc7UnEzuuiWVITM1U/JvGx0mvNSU5PKe0s6px/ep+aLnbbTnNTbh+/PljpVamItO7XlnagB9FJ2aQcd/680eXOGHURNWH9XvslOjM2vSJv0IDfOnTXYxWpejrOmHFYz94OOiE2dEkD6OPh/xGADnxTUrtqX02KaM1BCbwVrWRSdlDaT+SXhstGaNpHrs5x4ZXXglaTn2g4+L9p/sgn7NK2T3UpqxhlLp70cya1LlCN7pM9grIOJfkCx5GzDKkbxtVfFZQ6nyZVfz3F1SZYruppQzz3/IfimGuD9uStmS3/fjlVeNcBmJDY4y1iJIw1qL3fejlHlMq6aduBz7HxgJb1289VaO/fwj4Y+lSvTKW8I47twSvBTCXAVphHI3TP9jULBET924BZayJa8fsZubJboufbkiZQjpl9AkrDmIJ7mYr1HOWOTV73KH0Rs6DR8VHPFv+BlUut/n9Er2OuUNFQPX3fRCfBetDX3NzxF+DrUVLIZs0Du4heaKko5X4j/j4Z6oVlUsdFwloP2OA5cm7sh+oE34kpA23XBxio/K9l6nJ16M4eAJpfpRZU3ty3wT1Xf0BGVx8B49WDvooa8oWu6mVT56GlqzlJ6unUnyy/Xamakrd9/lc/W1PKa1WJ0/XHJUX9iTHxZqMTvjnp4OVVpJ1HlrVnOXFu7TAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAX+QvPf0sduJZa5wAAAAASUVORK5CYII=" alt=""></div>
+        <div class="client-items"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeCO8vgxJQMV8nvXUMkwj0PaPkDip7HL2OQ&usqp=CAU" alt=""></div>
+        <div class="client-items"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ57xOHP7P1dOhs0b2rKtcufRgvvTd6u4_b3Q&usqp=CAU" alt=""></div>
+        <div class="client-items"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTSO46VwQjJRAoz2L3Im6zLBg-TXY9kBhKXQ&usqp=CAU" alt=""></div>
+        <div class="client-items"><img src="https://static.vecteezy.com/system/resources/thumbnails/006/892/683/small/microsoft-logo-icon-editorial-free-vector.jpg" alt=""></div>
+        </div>
+    </section>
+    <section class="contact">
+        <div class="contact-details">
+            <h1 class="heading center">Contact Us</h1>
+            <div class="buttons">
+                <button class="btn">Call Us</button>
+                <button class="btn">Mail Us</button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy; www.foodie.com. All rights reserved|
+        </div>
+    </footer>
+</body>
+</html>

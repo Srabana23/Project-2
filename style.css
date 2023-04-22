@@ -1,0 +1,180 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+#navbar{
+    display: flex;
+    /* border: 2px solid red; */
+}
+#navbar::before{
+    height: 200px;
+    width: 100%;
+    content: "";
+    position: absolute;
+    background-color: black;
+    z-index: -1;
+    opacity: 0.2;
+}
+#logo img{
+    margin: 15px 10px;
+    /* filter: invert(100%); */
+}
+#navbar ul{
+    display: flex;
+   
+}
+#navbar ul li {
+    list-style: none;
+    margin: 35px;
+    padding: 10px;
+}
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+}
+#navbar ul li a:hover{
+    color:red;
+    background-color: antiquewhite;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    margin-bottom: 200px;
+}
+#home::before{
+    content:"";
+    height:100%;
+    width:100%;
+    position: absolute;
+    background:url('./salad-g9a20ff9c6_1920.jpg'); 
+    z-index: -1;
+    opacity: 0.8;
+}
+#home h1{
+    color: white;
+    margin: 20px;
+}
+.heading{
+    font-size: 3rem;
+}
+.center{
+    text-align: center;
+}
+
+.para{
+    font-size: 1.2rem;
+    color: white;
+}
+.btn{
+    margin:20px;
+    padding:20px;
+    font-size: 18px;
+    background-color: greenyellow;
+    border-radius: 18px;
+    width: 13%;
+}
+.btn:hover{
+    color:rgb(248, 25, 25);
+    cursor: pointer;
+}
+.services-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+    padding: 25px;
+}
+.services{
+    display: flex;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(140, 67, 10);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 25px;
+    border-radius: 8px;
+    background-color: rgba(250, 243, 243, 0.512);
+}
+.food-icon{
+    height:200px; 
+    width:250px;
+    margin-bottom: 15px;
+}
+.food-icon-heading{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.description{
+    font-size:1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#client-service{
+    margin-top: 20px;
+    padding: 10px;
+    /* border: 2px solid blue; */
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#client-service::before{
+    content: "";
+    position: absolute;
+    height:31%;
+    width: 100%;
+    background: url('https://cdn.pixabay.com/photo/2016/03/05/22/59/onions-1239423__340.jpg')no-repeat center center/cover;
+    z-index: -1;
+    opacity:0.6;
+}
+#client{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    justify-content: center;
+    align-items: center;
+    margin:34px 23px;
+}
+.client-items{
+    /* border: 2px solid red; */
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#client img{
+    height:100px;
+    width:130px;
+}
+.contact{
+    height: 200px;
+    /* border: 2px solid black; */
+    /* margin-top: 34px ; */
+}
+.contact::before{
+    content: "";
+    position:absolute;
+    height: 26%;
+    width:100%;
+    background-color: brown;
+    z-index: -1;
+    opacity: 0.8;
+}
+.contact h1{
+    padding-top: 25px;
+    color: white;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
